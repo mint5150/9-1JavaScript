@@ -47,6 +47,6 @@ const intervalTime = 8000;
 
 //組み込み関数setInterval()で自動で画像を切り替える処理を定期的に実行する
 setInterval(function() {
-  //changeSlidesの引数で1を設定するとslideIndex += nが実行される＝changeSlidesのインデックス番号が+1されるので次のスライドが表示される
+  //changeSlidesの引数で1を設定するとslideIndex += nが実行される＝function changeSlides(n)のインデックス番号が+1更新されるので次のスライドが表示される
   changeSlides(1);
 }, intervalTime);
