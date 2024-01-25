@@ -1,0 +1,38 @@
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.slideImage {
+  display: none;
+}
+
+img {
+  width: 100%;
+  position: relative;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  border: none;
+}
+
+.next {
+  right: 0;
+  top: 50%;
+  right: 20px;
+  border: none;
+}
